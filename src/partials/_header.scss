@@ -1,1 +1,24 @@
 /* Header rules */
+
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 75px;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+
+            li {
+                margin-left: 40px;
+                text-transform: uppercase;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

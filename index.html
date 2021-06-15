@@ -15,9 +15,19 @@
                     <img src="./dist/img/gym_logo_1x.png" alt="Avada Gym logo">
 
                     <ul>
-                        <li v-for="link in navigationLinks"></li>
+                        <li v-for="link in navigationLinks">
+                            <a href="#">{{ link }}</a> 
+                        </li>
                     </ul>
                 </nav>
+
+                <div class="jumbotron">
+                    <h1>NO PAIN NO GAIN</h1>
+
+                    <span>Motivation is what gets you started. Habit is what keeps you going.</span>
+
+                    <button>Join us today</button>
+                </div>
             </header>
         </div>
         

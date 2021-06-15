@@ -1,5 +1,12 @@
 /* Sass variables */
 /* Global rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
 body {
   background-color: black;
 }
@@ -17,3 +24,27 @@ body {
 }
 
 /* Header rules */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 75px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+
+/* Jumbotron rules */
+header .jumbotron {
+  background-image: url("../img/home-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
