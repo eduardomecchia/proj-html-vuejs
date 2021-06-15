@@ -40,12 +40,19 @@ header nav ul {
   display: flex;
   list-style-type: none;
 }
+header nav ul li:first-of-type a {
+  color: #ee6059;
+}
 header nav ul li {
   margin-left: 40px;
   text-transform: uppercase;
 }
 header nav ul li a {
   text-decoration: none;
+  transition: 0.3s;
+}
+header nav ul li a:hover {
+  color: #ee6059;
 }
 
 /* Jumbotron rules */

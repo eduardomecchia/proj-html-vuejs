@@ -16,12 +16,23 @@ header {
             display: flex;
             list-style-type: none;
 
+            li:first-of-type {
+                a {
+                    color: $theme-color-3;
+                }
+            }
+
             li {
                 margin-left: 40px;
                 text-transform: uppercase;
 
                 a {
                     text-decoration: none;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: $theme-color-3;
+                    }
                 }
             }
         }
