@@ -45,7 +45,38 @@ var app = new Vue({
       feedback: "No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers.",
       image: "./dist/img/review_4-compressor-2.jpg"
     }],
-    fourthSectionImages: ["./dist/img/home-image1.jpg", "./dist/img/home-image2.jpg", "./dist/img/home-image3.jpg", "./dist/img/home-image4.jpg", "./dist/img/home-image5.jpg", "./dist/img/home-image6.jpg"]
+    fourthSectionImages: ["./dist/img/home-image1.jpg", "./dist/img/home-image2.jpg", "./dist/img/home-image3.jpg", "./dist/img/home-image4.jpg", "./dist/img/home-image5.jpg", "./dist/img/home-image6.jpg"],
+    personalTrainers: [{
+      name: "Ann Baker",
+      title: "Personal Trainer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
+      facebook: "https://www.facebook.com/",
+      // Placeholder for profile link
+      twitter: "https://twitter.com/home",
+      // Placeholder for profile link
+      instagram: "https://www.instagram.com/" // Placeholder for profile link
+
+    }, {
+      name: "Anne Warren",
+      title: "Personal Trainer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
+      facebook: "https://www.facebook.com/",
+      // Placeholder for profile link
+      twitter: "https://twitter.com/home",
+      // Placeholder for profile link
+      instagram: "https://www.instagram.com/" // Placeholder for profile link
+
+    }, {
+      name: "Peter Rice",
+      title: "Personal Trainer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
+      facebook: "https://www.facebook.com/",
+      // Placeholder for profile link
+      twitter: "https://twitter.com/home",
+      // Placeholder for profile link
+      instagram: "https://www.instagram.com/" // Placeholder for profile link
+
+    }]
   },
   methods: {}
 });

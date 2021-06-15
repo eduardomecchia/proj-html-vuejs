@@ -64,6 +64,33 @@ const app = new Vue({
             "./dist/img/home-image4.jpg",
             "./dist/img/home-image5.jpg",
             "./dist/img/home-image6.jpg"
+        ],
+
+        personalTrainers: [
+            {
+                name: "Ann Baker",
+                title: "Personal Trainer",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
+                facebook: "https://www.facebook.com/", // Placeholder for profile link
+                twitter: "https://twitter.com/home", // Placeholder for profile link
+                instagram: "https://www.instagram.com/" // Placeholder for profile link
+            },
+            {
+                name: "Anne Warren",
+                title: "Personal Trainer",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
+                facebook: "https://www.facebook.com/", // Placeholder for profile link
+                twitter: "https://twitter.com/home", // Placeholder for profile link
+                instagram: "https://www.instagram.com/" // Placeholder for profile link
+            },
+            {
+                name: "Peter Rice",
+                title: "Personal Trainer",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
+                facebook: "https://www.facebook.com/", // Placeholder for profile link
+                twitter: "https://twitter.com/home", // Placeholder for profile link
+                instagram: "https://www.instagram.com/" // Placeholder for profile link
+            },
         ]
     },
 
