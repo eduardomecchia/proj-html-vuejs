@@ -2,6 +2,8 @@
 
 main {
     section:nth-child(2) {
+        position: relative;
+
         .wrapper {
             display: flex;
             flex-direction: row;
@@ -13,7 +15,6 @@ main {
             }
 
             .image-wrapper {
-
                 img {
                     max-width: 100%;
                 }
@@ -62,6 +63,21 @@ main {
                         background-color: darken($theme-color-3, 5%);
                     }
                 }
+            }
+
+            &::before {
+                content: "";
+                background-color: $theme-color-1;
+                background-color: white;
+                position: absolute;
+                /* display: block;
+                width: 0px;
+                height: 0px; */
+                border-top: 20px solid $theme-color-1;
+                border-right: 20px solid $theme-color-2;
+                border-bottom: 20px solid $theme-color-2;
+                border-left: 20px solid $theme-color-2;
+                top: 0;
             }
         }
     }

@@ -123,6 +123,9 @@ main section:first-child .wrapper p {
 }
 
 /* Section #2 rules*/
+main section:nth-child(2) {
+  position: relative;
+}
 main section:nth-child(2) .wrapper {
   display: flex;
   flex-direction: row;
@@ -180,4 +183,18 @@ main section:nth-child(2) .wrapper .form-container button:hover {
 main section:nth-child(2) .wrapper .form-container button:hover {
   border: 0;
   background-color: #ec4a42;
+}
+main section:nth-child(2) .wrapper::before {
+  content: "";
+  background-color: #25292b;
+  background-color: white;
+  position: absolute;
+  /* display: block;
+  width: 0px;
+  height: 0px; */
+  border-top: 20px solid #25292b;
+  border-right: 20px solid #1e2123;
+  border-bottom: 20px solid #1e2123;
+  border-left: 20px solid #1e2123;
+  top: 0;
 }
