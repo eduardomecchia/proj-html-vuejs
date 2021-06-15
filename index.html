@@ -98,11 +98,13 @@
                     <img class="divider" src="./dist/img/divider-xx-red.png" alt="Two red X symbols">
 
                     <div class="wrapper">
-                        <div class="bg-dark-grey" v-for="feedback in fourthSectionFeedbacks">
+                        <div class="bg-dark-grey feedback" v-for="feedback in fourthSectionFeedbacks">
                             <img :src="feedback.image" :alt="'Face of ' + feedback.author">
 
-                            <p>{{ feedback.feedback }}</p>
-                            <span>{{ feedback.author }}</span>
+                            <div class="feedback-info">
+                                <p>“{{ feedback.feedback }}”</p>
+                                <span>- {{ feedback.author }}</span>
+                            </div>
                         </div>
                     </div>
                 </section>

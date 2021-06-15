@@ -35,11 +35,11 @@ var app = new Vue({
     }, {
       author: "Simon Chel",
       feedback: "The atmosphere at Avada Gym is amazing, the people are even better. All in all, it is a great place to work out.",
-      image: "./dist/img/review_2-compressor.jpg"
+      image: "./dist/img/review_3-compressor-2.jpg"
     }, {
       author: "Jen Wirth",
       feedback: "The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment.",
-      image: "./dist/img/review_3-compressor-2.jpg"
+      image: "./dist/img/review_2-compressor.jpg"
     }, {
       author: "Jeff Glum",
       feedback: "No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers.",
