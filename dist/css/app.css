@@ -27,7 +27,8 @@ body {
 header {
   background-image: url("../img/home-banner.jpg");
   background-repeat: no-repeat;
-  background-position: center -30px;
+  background-position: center -15px;
+  background-size: cover;
 }
 header nav {
   display: flex;
@@ -53,8 +54,8 @@ header .jumbotron {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 160px;
-  padding-bottom: 350px;
+  padding-top: 120px;
+  padding-bottom: 300px;
 }
 header .jumbotron h1 {
   font-size: 75px;
