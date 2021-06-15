@@ -99,7 +99,10 @@
 
                     <div class="wrapper">
                         <div class="bg-dark-grey" v-for="feedback in fourthSectionFeedbacks">
-                            <img src="" :alt="Face of feedback.author">
+                            <img :src="feedback.image" :alt="'Face of ' + feedback.author">
+
+                            <p>{{ feedback.feedback }}</p>
+                            <span>{{ feedback.author }}</span>
                         </div>
                     </div>
                 </section>
