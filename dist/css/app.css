@@ -7,10 +7,6 @@
   font-size: 18px;
 }
 
-body {
-  background-color: black;
-}
-
 .bg-brand-1 {
   background-color: #25292b;
 }
@@ -27,7 +23,7 @@ body {
 header {
   background-image: url("../img/home-banner.jpg");
   background-repeat: no-repeat;
-  background-position: center 15px;
+  background-position: center;
   background-size: cover;
 }
 header nav {
@@ -61,7 +57,7 @@ header .jumbotron {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 140px;
+  padding-top: 90px;
   padding-bottom: 300px;
 }
 header .jumbotron h1 {
