@@ -24,6 +24,9 @@ body {
 }
 
 /* Header rules */
+header {
+  min-height: 500px;
+}
 header nav {
   display: flex;
   justify-content: space-between;

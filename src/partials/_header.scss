@@ -1,6 +1,8 @@
 /* Header rules */
 
 header {
+    min-height: 500px;
+
     nav {
         display: flex;
         justify-content: space-between;
