@@ -244,3 +244,11 @@ main section:nth-child(3) .wrapper .feature .divider {
 main section:nth-child(3) .wrapper .feature p {
   line-height: 30px;
 }
+
+/* Section #4 rules */
+main section:nth-child(4) .wrapper {
+  display: flex;
+}
+main section:nth-child(4) .wrapper > * {
+  width: 40%;
+}

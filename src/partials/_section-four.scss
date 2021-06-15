@@ -1,0 +1,13 @@
+/* Section #4 rules */
+
+main {
+    section:nth-child(4) {
+        .wrapper {
+            display: flex;
+
+            > * {
+                width: 40%;
+            }
+        }
+    }
+}
