@@ -23,7 +23,7 @@
 header {
   background-image: url("../img/home-banner.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 0;
   background-size: cover;
 }
 header nav {
