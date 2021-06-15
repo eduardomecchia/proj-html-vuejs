@@ -67,7 +67,7 @@ header .jumbotron {
   padding-bottom: 300px;
 }
 header .jumbotron h1 {
-  font-size: 85px;
+  font-size: 100px;
 }
 header .jumbotron span {
   margin-top: 20px;
@@ -97,7 +97,10 @@ main section {
   padding: 100px 0;
 }
 main section h2 {
-  font-size: 30px;
+  font-size: 36px;
+}
+main section h3 {
+  font-size: 22px;
 }
 main section .divider {
   margin: 40px 0;
