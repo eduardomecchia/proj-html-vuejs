@@ -313,3 +313,25 @@ main section:nth-child(5) .wrapper span {
   display: block;
   margin-top: 20px;
 }
+
+/* Section #6 rules */
+main section:nth-child(6) .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-child(6) .wrapper button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #a3a2a2;
+  color: #a3a2a2;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s;
+  border: 1px solid #1e2123;
+}
+main section:nth-child(6) .wrapper button:hover {
+  color: white;
+  border: 1px solid white;
+}

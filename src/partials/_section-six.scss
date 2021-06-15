@@ -1,0 +1,17 @@
+/* Section #6 rules */
+
+main {
+    section:nth-child(6) {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            button {
+                @include button;
+                border: 1px solid $theme-color-2;
+            }
+        }
+    }
+}
