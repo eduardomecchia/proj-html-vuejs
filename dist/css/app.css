@@ -126,15 +126,31 @@ main section:nth-child(2) {
   justify-content: center;
   align-items: center;
 }
-main section:nth-child(2) .form-group {
+main section:nth-child(2) .form-container {
+  margin-left: 40px;
+}
+main section:nth-child(2) .form-container .form-group {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 }
-main section:nth-child(2) .form-group label {
+main section:nth-child(2) .form-container .form-group label {
   color: #a3a2a2;
   margin-bottom: 10px;
 }
-main section:nth-child(2) button {
+main section:nth-child(2) .form-container .form-group input {
+  background-color: transparent;
+  border: 1px solid #3e4346;
+  padding: 8px 15px;
+  transition: border 0.2s;
+}
+main section:nth-child(2) .form-container .form-group input:hover {
+  border: 1px solid #3e434680;
+}
+main section:nth-child(2) .form-container .form-group input:focus-visible {
+  outline: 0;
+}
+main section:nth-child(2) .form-container button {
   padding: 10px 30px;
   background-color: transparent;
   border: 1px solid #a3a2a2;
@@ -145,12 +161,14 @@ main section:nth-child(2) button {
   border: 0;
   color: white;
   background-color: #ee6059;
+  width: 100%;
+  margin-top: 40px;
 }
-main section:nth-child(2) button:hover {
+main section:nth-child(2) .form-container button:hover {
   color: white;
   border: 1px solid white;
 }
-main section:nth-child(2) button:hover {
+main section:nth-child(2) .form-container button:hover {
   border: 0;
   background-color: #ec4a42;
 }

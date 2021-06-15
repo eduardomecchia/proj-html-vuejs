@@ -7,26 +7,48 @@ main {
         justify-content: center;
         align-items: center;
 
-        .form-group {
-            display: flex;
-            flex-direction: column;
+        .form-container {
+            margin-left: 40px;
 
-            label {
-                color: $paragraph-color;
-                margin-bottom: 10px;
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+    
+                label {
+                    color: $paragraph-color;
+                    margin-bottom: 10px;
+                }
+
+                input {
+                    background-color: transparent;
+                    border: 1px solid #3e4346;
+                    padding: 8px 15px;
+                    transition: border 0.2s;
+
+                    &:hover {
+                        border: 1px solid #3e434680;
+                    }
+
+                    &:focus-visible {
+                        outline: 0;
+                    }
+                }
             }
-        }
-
-        button {
-            @include button;
-            
-            border: 0;
-            color: white;
-            background-color: $theme-color-3;
-
-            &:hover {
+    
+            button {
+                @include button;
+                
                 border: 0;
-                background-color: darken($theme-color-3, 5%);
+                color: white;
+                background-color: $theme-color-3;
+                width: 100%;
+                margin-top: 40px;
+    
+                &:hover {
+                    border: 0;
+                    background-color: darken($theme-color-3, 5%);
+                }
             }
         }
     }
