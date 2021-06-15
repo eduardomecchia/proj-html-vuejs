@@ -21,7 +21,7 @@ var app = new Vue({
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us."
     }, {
       name: "Flexibility & Rest",
-      iconClass: "",
+      iconClass: "fa-cloud",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us."
     }, {
       name: "Health & Diet",

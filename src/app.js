@@ -24,7 +24,7 @@ const app = new Vue({
             },
             {
                 name: "Flexibility & Rest",
-                iconClass: "",
+                iconClass: "fa-cloud",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us." 
             },
             {

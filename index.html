@@ -76,16 +76,16 @@
 
                 <!-- Section number 3 -->
                 <section>
-                    <div class="feature">
+                    <div class="feature" v-for="feature in thirdSectionFeatures">
                         <div class="icon">
-                            <i class="fas fa-bicycle"></i>
+                            <i class="fas" :class="feature.iconClass"></i>
                         </div>
 
-                        <h4>Strength & Conditioning</h4>
+                        <h4>{{ feature.name }}</h4>
 
                         <img src="./dist/img/divider-x-red.png" alt="Red X symbol" class="divider">
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                        <p>{{ feature.description }}</p>
                     </div>
                 </section>
 
