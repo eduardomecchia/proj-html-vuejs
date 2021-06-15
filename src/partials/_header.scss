@@ -3,14 +3,14 @@
 header {
     background-image: url("../img/home-banner.jpg");
     background-repeat: no-repeat;
-    background-position: center -15px;
+    background-position: center 15px;
     background-size: cover;
 
     nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 50px 75px;
+        padding: 50px 60px;
 
         ul {
             display: flex;
