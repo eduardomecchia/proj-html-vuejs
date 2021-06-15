@@ -85,6 +85,22 @@ main section {
 main section h2 {
   font-size: 30px;
 }
+main section .divider {
+  margin: 40px 0;
+}
 main section p {
   color: #a3a2a2;
+}
+
+/* Section number 1 rules */
+main section:first-child .wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main section:first-child .wrapper p {
+  line-height: 30px;
 }
