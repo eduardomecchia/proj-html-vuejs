@@ -202,6 +202,8 @@ main section:nth-child(2) .wrapper::before {
 
 /* Section #3 rules */
 main section:nth-child(3) {
+  padding-top: 140px;
+  padding-bottom: 110px;
   background-image: url("../img/gym_bkgd_bw-compressor.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -225,4 +227,10 @@ main section:nth-child(3) .feature .icon {
 main section:nth-child(3) .feature .icon i {
   color: #ee6059;
   font-size: inherit;
+}
+main section:nth-child(3) .feature h4 {
+  margin-top: 20px;
+}
+main section:nth-child(3) .feature .divider {
+  margin: 20px 0;
 }

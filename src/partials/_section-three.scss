@@ -2,6 +2,8 @@
 
 main {
     section:nth-child(3) {
+        padding-top: 140px;
+        padding-bottom: 110px;
         background-image: url("../img/gym_bkgd_bw-compressor.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -26,6 +28,14 @@ main {
                     color: $theme-color-3;
                     font-size: inherit;
                 }
+            }
+
+            h4 {
+                margin-top: 20px;
+            }
+
+            .divider {
+                margin: 20px 0;
             }
         }
     }
