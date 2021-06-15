@@ -99,7 +99,7 @@
 
                     <div class="wrapper">
                         <div class="bg-brand-2 feedback" v-for="feedback in fourthSectionFeedbacks">
-                            <img :src="feedback.image" :alt="'Face of ' + feedback.author">
+                            <img :src="'./dist/img/' + feedback.image" :alt="'Face of ' + feedback.author">
 
                             <div class="feedback-info">
                                 <p>“{{ feedback.feedback }}”</p>
@@ -114,7 +114,7 @@
 
                     <div class="wrapper">
                         <div class="image-wrapper" v-for="image in fourthSectionImages">
-                            <img :src="image" alt="">
+                            <img :src="'./dist/img/' + image" alt="">
                         </div>
                     </div>
                 </section>
