@@ -55,6 +55,9 @@ header .jumbotron {
   background-repeat: no-repeat;
   background-position: center;
 }
+header .jumbotron span {
+  color: #a3a2a2;
+}
 header .jumbotron button {
   padding: 10px 30px;
   background-color: transparent;
