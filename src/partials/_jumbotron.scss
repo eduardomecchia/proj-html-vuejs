@@ -6,16 +6,21 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url("../img/home-banner.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
+        padding-top: 160px;
+        padding-bottom: 350px;
+
+        h1 {
+            font-size: 75px;
+        }
 
         span {
+            margin-top: 20px;
             color: $paragraph-color;
         }
 
         button {
             @include button;
+            margin-top: 20px;
         }
     }
 }

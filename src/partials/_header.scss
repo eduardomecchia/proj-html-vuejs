@@ -1,7 +1,9 @@
 /* Header rules */
 
 header {
-    min-height: 500px;
+    background-image: url("../img/home-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center -30px;
 
     nav {
         display: flex;
