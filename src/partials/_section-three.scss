@@ -5,5 +5,28 @@ main {
         background-image: url("../img/gym_bkgd_bw-compressor.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .icon {
+                width: 82px;
+                height: 82px;
+                border: 1px solid $theme-color-3;
+                border-radius: 50%;
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    color: $theme-color-3;
+                    font-size: inherit;
+                }
+            }
+        }
     }
 }

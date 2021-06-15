@@ -206,3 +206,23 @@ main section:nth-child(3) {
   background-size: cover;
   background-repeat: no-repeat;
 }
+main section:nth-child(3) .feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-child(3) .feature .icon {
+  width: 82px;
+  height: 82px;
+  border: 1px solid #ee6059;
+  border-radius: 50%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-child(3) .feature .icon i {
+  color: #ee6059;
+  font-size: inherit;
+}
