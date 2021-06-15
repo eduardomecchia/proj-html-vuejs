@@ -1,7 +1,16 @@
 const app = new Vue({
     el: "#app",
 
-    data: {},
+    data: {
+        navigationLinks: [
+            "home",
+            "about us",
+            "facilities",
+            "membership",
+            "testimonials",
+            "blog"
+        ]
+    },
 
     methods: {}
 });

@@ -1,1 +1,19 @@
+/* Sass variables */
+/* Global rules */
+body {
+  background-color: black;
+}
 
+.bg-grey {
+  background-color: #25292b;
+}
+
+.bg-dark-grey {
+  background-color: #1e2123;
+}
+
+.bg-red {
+  background-color: #ee6059;
+}
+
+/* Header rules */
