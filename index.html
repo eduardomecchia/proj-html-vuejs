@@ -134,6 +134,10 @@
 
                         <img class="divider" src="./dist/img/divider-xx-red.png" alt="Two red X symbols">
 
+                        <div class="staff" v-for="personalTrainer in personalTrainers">
+                            <img :src="'../img/' + personalTrainer.photo" alt="">
+                        </div>
+
                         <button>View all trainers</button>
                     </div>
                 </section>

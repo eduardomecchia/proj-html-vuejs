@@ -70,6 +70,7 @@ const app = new Vue({
             {
                 name: "Ann Baker",
                 title: "Personal Trainer",
+                photo: "trainer1.jpg",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
                 facebook: "https://www.facebook.com/", // Placeholder for profile link
                 twitter: "https://twitter.com/home", // Placeholder for profile link
@@ -78,6 +79,7 @@ const app = new Vue({
             {
                 name: "Anne Warren",
                 title: "Personal Trainer",
+                photo: "trainer3.jpg",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
                 facebook: "https://www.facebook.com/", // Placeholder for profile link
                 twitter: "https://twitter.com/home", // Placeholder for profile link
@@ -86,6 +88,7 @@ const app = new Vue({
             {
                 name: "Peter Rice",
                 title: "Personal Trainer",
+                photo: "trainer4.jpg",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.",
                 facebook: "https://www.facebook.com/", // Placeholder for profile link
                 twitter: "https://twitter.com/home", // Placeholder for profile link
