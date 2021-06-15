@@ -44,7 +44,8 @@ var app = new Vue({
       author: "Jeff Glum",
       feedback: "No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers.",
       image: "./dist/img/review_4-compressor-2.jpg"
-    }]
+    }],
+    fourthSectionImages: ["./dist/img/home-image1.jpg", "./dist/img/home-image2.jpg", "./dist/img/home-image3.jpg", "./dist/img/home-image4.jpg", "./dist/img/home-image5.jpg", "./dist/img/home-image6.jpg"]
   },
   methods: {}
 });
