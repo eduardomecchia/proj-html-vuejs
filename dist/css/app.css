@@ -194,3 +194,8 @@ main section:nth-child(2) .wrapper::before {
   border-bottom: 20px solid #1e2123;
   border-left: 20px solid #1e2123;
 }
+
+/* Section #3 rules */
+main section:nth-child(3) {
+  background-image: url("../img/gym_bkgd_bw-compressor.jpg");
+}
