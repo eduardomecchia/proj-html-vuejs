@@ -208,29 +208,39 @@ main section:nth-child(3) {
   background-size: cover;
   background-repeat: no-repeat;
 }
-main section:nth-child(3) .feature {
+main section:nth-child(3) .wrapper {
+  display: flex;
+  justify-content: center;
+}
+main section:nth-child(3) .wrapper .feature {
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-main section:nth-child(3) .feature .icon {
+main section:nth-child(3) .wrapper .feature .icon {
   width: 82px;
   height: 82px;
   border: 1px solid #ee6059;
   border-radius: 50%;
   font-size: 40px;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main section:nth-child(3) .feature .icon i {
+main section:nth-child(3) .wrapper .feature .icon i {
   color: #ee6059;
   font-size: inherit;
 }
-main section:nth-child(3) .feature h4 {
+main section:nth-child(3) .wrapper .feature h4 {
   margin-top: 20px;
 }
-main section:nth-child(3) .feature .divider {
+main section:nth-child(3) .wrapper .feature .divider {
   margin: 20px 0;
+}
+main section:nth-child(3) .wrapper .feature p {
+  line-height: 30px;
 }

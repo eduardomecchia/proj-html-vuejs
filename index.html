@@ -76,16 +76,18 @@
 
                 <!-- Section number 3 -->
                 <section>
-                    <div class="feature" v-for="feature in thirdSectionFeatures">
-                        <div class="icon">
-                            <i class="fas" :class="feature.iconClass"></i>
+                    <div class="wrapper">
+                        <div class="feature" v-for="feature in thirdSectionFeatures">
+                            <div class="icon">
+                                <i class="fas" :class="feature.iconClass"></i>
+                            </div>
+    
+                            <h4>{{ feature.name }}</h4>
+    
+                            <img src="./dist/img/divider-x-red.png" alt="Red X symbol" class="divider">
+    
+                            <p>{{ feature.description }}</p>
                         </div>
-
-                        <h4>{{ feature.name }}</h4>
-
-                        <img src="./dist/img/divider-x-red.png" alt="Red X symbol" class="divider">
-
-                        <p>{{ feature.description }}</p>
                     </div>
                 </section>
 
