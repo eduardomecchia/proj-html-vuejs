@@ -10,7 +10,7 @@
     transition: 0.2s;
 
     &:hover {
-        color: white;
-        border: 1px solid white;
+        color: lighten($button-color, 50%);
+        border: 1px solid lighten($button-color, 50%);
     }
 }

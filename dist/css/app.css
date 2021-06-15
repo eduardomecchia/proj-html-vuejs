@@ -106,7 +106,7 @@ main section p {
   color: #a3a2a2;
 }
 
-/* Section number 1 rules */
+/* Section #1 rules */
 main section:first-child .wrapper {
   width: 40%;
   display: flex;
@@ -117,4 +117,40 @@ main section:first-child .wrapper {
 }
 main section:first-child .wrapper p {
   line-height: 30px;
+}
+
+/* Section #2 rules*/
+main section:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-child(2) .form-group {
+  display: flex;
+  flex-direction: column;
+}
+main section:nth-child(2) .form-group label {
+  color: #a3a2a2;
+  margin-bottom: 10px;
+}
+main section:nth-child(2) button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #a3a2a2;
+  color: #a3a2a2;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s;
+  border: 0;
+  color: white;
+  background-color: #ee6059;
+}
+main section:nth-child(2) button:hover {
+  color: white;
+  border: 1px solid white;
+}
+main section:nth-child(2) button:hover {
+  border: 0;
+  background-color: #ec4a42;
 }
