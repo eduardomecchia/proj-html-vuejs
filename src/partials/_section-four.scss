@@ -32,9 +32,29 @@ main {
                     }
                 }
             }
+        }
+        
+        .wrapper:nth-of-type(2) {
+            justify-content: space-evenly;
+            width: 70%;
 
             .image-wrapper {
-                width: calc(100% / 3);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: calc(90% / 3);
+                margin-bottom: 40px;
+                padding: 0 10px;
+                cursor: pointer;
+                transition: transform 0.2s;
+
+                &:hover {
+                    transform: scale(1.03);
+                }
+
+                img {
+                    max-width: 100%;
+                }
             }
         }
 
