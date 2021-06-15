@@ -68,3 +68,9 @@ main section {
   justify-content: center;
   align-items: center;
 }
+main section h2 {
+  font-size: 30px;
+}
+main section p {
+  color: #a3a2a2;
+}
