@@ -44,6 +44,10 @@ header nav ul li a {
 
 /* Jumbotron rules */
 header .jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url("../img/home-banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
