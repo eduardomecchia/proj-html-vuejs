@@ -3,5 +3,7 @@
 main {
     section:nth-child(3) {
         background-image: url("../img/gym_bkgd_bw-compressor.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }

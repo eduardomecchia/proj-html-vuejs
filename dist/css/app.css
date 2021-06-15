@@ -137,6 +137,11 @@ main section:nth-child(2) .wrapper > * {
 }
 main section:nth-child(2) .wrapper .image-wrapper img {
   max-width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+main section:nth-child(2) .wrapper .image-wrapper img:hover {
+  transform: scale(1.05);
 }
 main section:nth-child(2) .wrapper .form-container {
   margin-left: 40px;
@@ -198,4 +203,6 @@ main section:nth-child(2) .wrapper::before {
 /* Section #3 rules */
 main section:nth-child(3) {
   background-image: url("../img/gym_bkgd_bw-compressor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

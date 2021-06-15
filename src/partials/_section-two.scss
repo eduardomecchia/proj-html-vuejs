@@ -17,6 +17,12 @@ main {
             .image-wrapper {
                 img {
                     max-width: 100%;
+                    cursor: pointer;
+                    transition: transform 0.2s;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
                 }
             }
             
