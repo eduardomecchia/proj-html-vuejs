@@ -213,6 +213,10 @@ main section:nth-child(3) .wrapper .feature {
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
+}
+main section:nth-child(3) .wrapper .feature:hover h4 {
+  color: #ee6059;
 }
 main section:nth-child(3) .wrapper .feature .icon {
   width: 82px;
@@ -220,7 +224,6 @@ main section:nth-child(3) .wrapper .feature .icon {
   border: 1px solid #ee6059;
   border-radius: 50%;
   font-size: 40px;
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,6 +233,7 @@ main section:nth-child(3) .wrapper .feature .icon i {
   font-size: inherit;
 }
 main section:nth-child(3) .wrapper .feature h4 {
+  transition: color 0.2s;
   margin-top: 20px;
 }
 main section:nth-child(3) .wrapper .feature .divider {

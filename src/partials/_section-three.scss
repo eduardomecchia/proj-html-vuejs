@@ -19,6 +19,13 @@ main {
                 justify-content: center;
                 align-items: center;
                 text-align: center;
+                cursor: pointer;
+
+                &:hover {
+                    h4 {
+                        color: $theme-color-3;
+                    }
+                }
     
                 .icon {
                     width: 82px;
@@ -26,7 +33,6 @@ main {
                     border: 1px solid $theme-color-3;
                     border-radius: 50%;
                     font-size: 40px;
-                    cursor: pointer;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -38,6 +44,7 @@ main {
                 }
     
                 h4 {
+                    transition: color 0.2s;
                     margin-top: 20px;
                 }
     
