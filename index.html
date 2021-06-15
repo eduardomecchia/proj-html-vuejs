@@ -134,8 +134,18 @@
 
                         <img class="divider" src="./dist/img/divider-xx-red.png" alt="Two red X symbols">
 
-                        <div class="staff" v-for="personalTrainer in personalTrainers">
-                            <img :src="'../img/' + personalTrainer.photo" alt="">
+                        <div class="staff bg-brand-1" v-for="personalTrainer in personalTrainers">
+                            <img :src="'./dist/img/' + personalTrainer.photo" alt="">
+
+                            <div>{{ personalTrainer.name }}</div>
+
+                            <div>{{ personalTrainer.title }}</div>
+
+                            <div>{{ personalTrainer.description }}</div>
+
+                            <div class="social-media">
+
+                            </div>
                         </div>
 
                         <button>View all trainers</button>
