@@ -60,3 +60,11 @@ header .jumbotron button {
   cursor: pointer;
   text-transform: uppercase;
 }
+
+/* General section rules */
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
