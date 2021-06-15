@@ -123,37 +123,43 @@ main section:first-child .wrapper p {
 }
 
 /* Section #2 rules*/
-main section:nth-child(2) {
+main section:nth-child(2) .wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
-main section:nth-child(2) .form-container {
+main section:nth-child(2) .wrapper > * {
+  width: 50%;
+}
+main section:nth-child(2) .wrapper .image-wrapper img {
+  max-width: 100%;
+}
+main section:nth-child(2) .wrapper .form-container {
   margin-left: 40px;
 }
-main section:nth-child(2) .form-container .form-group {
+main section:nth-child(2) .wrapper .form-container .form-group {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
 }
-main section:nth-child(2) .form-container .form-group label {
+main section:nth-child(2) .wrapper .form-container .form-group label {
   color: #a3a2a2;
   margin-bottom: 10px;
 }
-main section:nth-child(2) .form-container .form-group input {
+main section:nth-child(2) .wrapper .form-container .form-group input {
   background-color: transparent;
   border: 1px solid #3e4346;
   padding: 8px 15px;
   transition: border 0.2s;
 }
-main section:nth-child(2) .form-container .form-group input:hover {
+main section:nth-child(2) .wrapper .form-container .form-group input:hover {
   border: 1px solid #3e434680;
 }
-main section:nth-child(2) .form-container .form-group input:focus-visible {
+main section:nth-child(2) .wrapper .form-container .form-group input:focus-visible {
   outline: 0;
 }
-main section:nth-child(2) .form-container button {
+main section:nth-child(2) .wrapper .form-container button {
   padding: 10px 30px;
   background-color: transparent;
   border: 1px solid #a3a2a2;
@@ -167,11 +173,11 @@ main section:nth-child(2) .form-container button {
   width: 100%;
   margin-top: 40px;
 }
-main section:nth-child(2) .form-container button:hover {
+main section:nth-child(2) .wrapper .form-container button:hover {
   color: white;
   border: 1px solid white;
 }
-main section:nth-child(2) .form-container button:hover {
+main section:nth-child(2) .wrapper .form-container button:hover {
   border: 0;
   background-color: #ec4a42;
 }
