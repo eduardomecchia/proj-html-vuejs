@@ -26,8 +26,14 @@ body {
 @mixin button {
     padding: 10px 30px;
     background-color: transparent;
-    border: 1px solid $paragraph-color;
-    color: $paragraph-color;
+    border: 1px solid $button-color;
+    color: $button-color;
     cursor: pointer;
     text-transform: uppercase;
+    transition: 0.2s;
+
+    &:hover {
+        color: white;
+        border: 1px solid white;
+    }
 }
