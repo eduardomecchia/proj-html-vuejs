@@ -172,7 +172,14 @@
 
                     <div class="wrapper">
                         <div class="card bg-brand-2" v-for="card in performanceCards">
-                            <img :src="'./dist/img/' + card.image" alt="">
+                            <div class="image-wrapper">
+                                <img :src="'./dist/img/' + card.image" alt="">
+                                
+                                <div class="overlay">
+                                    <i class="fas fa-link"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
 
                             <div class="card-info">
                                 <a href="#">
