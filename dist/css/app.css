@@ -413,6 +413,13 @@ main section:nth-child(7) .wrapper .card .card-info {
   padding: 30px;
   line-height: 30px;
 }
+main section:nth-child(7) .wrapper .card .card-info a {
+  text-decoration: none;
+}
+main section:nth-child(7) .wrapper .card .card-info a:hover h3 {
+  transition: color 0.2s;
+  color: #ee6059;
+}
 main section:nth-child(7) button {
   padding: 10px 30px;
   background-color: transparent;

@@ -43,6 +43,17 @@ main {
                 .card-info {
                     padding: 30px;
                     line-height: 30px;
+
+                    a {
+                        text-decoration: none;
+
+                        &:hover {
+                            h3 {
+                                transition: color 0.2s;
+                                color: $theme-color-3;
+                            }
+                        }
+                    }
                 }
             }
         }
