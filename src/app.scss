@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/commons";
+
 @import "partials/header";
 @import "partials/jumbotron";
+
 @import "partials/sections";
 @import "partials/section-one";
 @import "partials/section-two";
@@ -11,6 +15,7 @@
 @import "partials/section-five";
 @import "partials/section-six";
 @import "partials/section-seven";
+
 @import "partials/footer-band";
 @import "partials/footer";
 @import "partials/footer-copyright";
