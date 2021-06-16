@@ -185,9 +185,9 @@ main section:nth-child(2) .wrapper .form-container button:hover {
 }
 main section:nth-child(2) .wrapper::before {
   content: "";
-  background-color: #25292b;
   position: absolute;
   top: 0;
+  background-color: #25292b;
   border-top: 20px solid #25292b;
   border-right: 20px solid #1e2123;
   border-bottom: 20px solid #1e2123;
@@ -483,9 +483,14 @@ main section:nth-child(7) button:hover {
 }
 main section:nth-child(7)::before {
   content: "";
-  background-color: #1e2123;
   position: absolute;
   top: 0;
+  background-color: #25292b;
+  border-top: 20px solid #25292b;
+  border-right: 20px solid #1e2123;
+  border-bottom: 20px solid #1e2123;
+  border-left: 20px solid #1e2123;
+  background-color: #1e2123;
   border-top: 20px solid #1e2123;
   border-right: 20px solid #25292b;
   border-bottom: 20px solid #25292b;
