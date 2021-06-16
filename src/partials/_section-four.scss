@@ -29,8 +29,13 @@ main {
 
                 .feedback-info {
                     margin-left: 30px;
+                    
+                    .feedback-text {
+                        line-height: 30px;
+                        font-style: italic;
+                    }
 
-                    span {
+                    .feedback-author {
                         display: block;
                         margin-top: 10px;
                         color: $paragraph-color;
