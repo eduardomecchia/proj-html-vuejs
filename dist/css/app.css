@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Global rules */
 * {
   box-sizing: border-box;
@@ -537,4 +538,66 @@ footer section:first-child .wrapper div:last-child button {
 footer section:first-child .wrapper div:last-child button:hover {
   color: white;
   border: 1px solid white;
+}
+
+/* Footer rules */
+footer *:not(section *) {
+  font-size: 15px;
+}
+footer .footer-columns {
+  display: flex;
+  justify-content: center;
+  padding: 86px 0;
+}
+footer .footer-columns .wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+footer .footer-columns .wrapper .column {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-columns .wrapper .column * {
+  color: #a3a2a2;
+}
+footer .footer-columns .wrapper .column h4 {
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+footer .footer-columns .wrapper .column a {
+  color: white;
+  transition: 0.2s;
+  text-decoration: none;
+}
+footer .footer-columns .wrapper .column a:hover {
+  color: #ee6059;
+}
+footer .footer-columns .wrapper .column.about > *:not(h4) {
+  margin-bottom: 20px;
+}
+footer .footer-columns .wrapper .column.posts hr {
+  border: 1px solid #3d3c3c;
+  margin: 20px 0;
+}
+footer .footer-columns .wrapper .column.posts a {
+  line-height: 30px;
+}
+footer .footer-columns .wrapper .column.posts a::before {
+  content: "˃";
+  font-size: 10px;
+  margin-right: 5px;
+}
+footer .footer-columns .wrapper .column.times .time {
+  color: #565656;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+footer .footer-columns .wrapper .column.ad a {
+  transition: transform 0.2s;
+}
+footer .footer-columns .wrapper .column.ad a:hover {
+  transform: scale(1.03);
 }
