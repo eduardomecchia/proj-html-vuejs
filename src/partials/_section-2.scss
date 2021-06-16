@@ -32,7 +32,10 @@ main {
                     margin-top: 40px;
         
                     label {
-                        color: $paragraph-color;
+                        &, * {
+                            color: $paragraph-color;
+                        }
+
                         margin-bottom: 10px;
                     }
     

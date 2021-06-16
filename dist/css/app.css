@@ -172,8 +172,10 @@ main section:nth-child(2) .wrapper .form-container .form-group {
   margin-top: 40px;
 }
 main section:nth-child(2) .wrapper .form-container .form-group label {
-  color: #a3a2a2;
   margin-bottom: 10px;
+}
+main section:nth-child(2) .wrapper .form-container .form-group label, main section:nth-child(2) .wrapper .form-container .form-group label * {
+  color: #a3a2a2;
 }
 main section:nth-child(2) .wrapper .form-container .form-group input {
   background-color: transparent;
