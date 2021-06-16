@@ -127,7 +127,6 @@ const app = new Vue({
                 title: "The myths of shedding body fat explored",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]"
             },
-
         ]
     },
 

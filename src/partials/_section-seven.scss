@@ -2,10 +2,31 @@
 
 main {
     section:nth-child(7) {
+        .wrapper {
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .card {
+                width: calc(100% / 3);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    max-width: 100%;
+                }
+
+                .card-info {
+                    padding: 30px;
+                }
+            }
+        }
 
         button {
             @include button;
-            margin-top: 20px;
+            margin-top: 70px;
         }
     }
 }

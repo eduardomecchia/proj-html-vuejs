@@ -379,6 +379,24 @@ main section:nth-child(6) button:hover {
 }
 
 /* Section #7 rules */
+main section:nth-child(7) .wrapper {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main section:nth-child(7) .wrapper .card {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-child(7) .wrapper .card img {
+  max-width: 100%;
+}
+main section:nth-child(7) .wrapper .card .card-info {
+  padding: 30px;
+}
 main section:nth-child(7) button {
   padding: 10px 30px;
   background-color: transparent;
@@ -387,7 +405,7 @@ main section:nth-child(7) button {
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.2s;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 main section:nth-child(7) button:hover {
   color: white;

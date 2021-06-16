@@ -170,6 +170,18 @@
 
                     <img class="divider" src="./dist/img/divider-xx-red.png" alt="Two red X symbols">
 
+                    <div class="wrapper">
+                        <div class="card bg-brand-2" v-for="card in performanceCards">
+                            <img :src="'./dist/img/' + card.image" alt="">
+
+                            <div class="card-info">
+                                <h3>{{ card.title }}</h3>
+    
+                                <p>{{ card.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <button>Read all articles</button>
                 </section>
             </main>
