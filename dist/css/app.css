@@ -601,6 +601,7 @@ footer .footer-columns {
   display: flex;
   justify-content: center;
   padding: 86px 0;
+  line-height: 30px;
 }
 footer .footer-columns .wrapper {
   display: flex;
@@ -628,15 +629,9 @@ footer .footer-columns .wrapper .column a {
 footer .footer-columns .wrapper .column a:hover {
   color: #ee6059;
 }
-footer .footer-columns .wrapper .column.about > *:not(h4) {
-  margin-bottom: 20px;
-}
 footer .footer-columns .wrapper .column.posts hr {
   border: 1px solid #3d3c3c;
   margin: 20px 0;
-}
-footer .footer-columns .wrapper .column.posts a {
-  line-height: 30px;
 }
 footer .footer-columns .wrapper .column.posts a::before {
   content: "˃";
@@ -645,8 +640,7 @@ footer .footer-columns .wrapper .column.posts a::before {
 }
 footer .footer-columns .wrapper .column.times .time {
   color: #565656;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 footer .footer-columns .wrapper .column.ad a {
   transition: transform 0.35s;

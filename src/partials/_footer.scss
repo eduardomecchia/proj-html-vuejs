@@ -9,6 +9,7 @@ footer {
         display: flex;
         justify-content: center;
         padding: 86px 0;
+        line-height: 30px;
 
         .wrapper {
             display: flex;
@@ -41,20 +42,10 @@ footer {
                 }
             }
 
-            .column.about {
-                > *:not(h4) {
-                    margin-bottom: 20px;
-                }
-            }
-
             .column.posts {
                 hr {
                     border: 1px solid darken($paragraph-color, 40%);
                     margin: 20px 0;
-                }
-
-                a {
-                    line-height: 30px;
                 }
 
                 a::before {
@@ -67,8 +58,7 @@ footer {
             .column.times {
                 .time {
                     color: darken($paragraph-color, 30%);
-                    margin-top: 10px;
-                    margin-bottom: 20px;
+                    margin: 10px 0;
                 }
             }
             
