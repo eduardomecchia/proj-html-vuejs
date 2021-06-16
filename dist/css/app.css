@@ -215,10 +215,10 @@ main section:nth-child(2) .wrapper::before {
   position: absolute;
   top: 0;
   background-color: #25292b;
-  border-top: 20px solid #25292b;
-  border-right: 20px solid #1e2123;
-  border-bottom: 20px solid #1e2123;
-  border-left: 20px solid #1e2123;
+  border-top: 30px solid #25292b;
+  border-right: 30px solid #1e2123;
+  border-bottom: 30px solid #1e2123;
+  border-left: 30px solid #1e2123;
 }
 
 /* Section #3 rules */
@@ -549,15 +549,15 @@ main section:nth-child(7)::before {
   position: absolute;
   top: 0;
   background-color: #25292b;
-  border-top: 20px solid #25292b;
-  border-right: 20px solid #1e2123;
-  border-bottom: 20px solid #1e2123;
-  border-left: 20px solid #1e2123;
+  border-top: 30px solid #25292b;
+  border-right: 30px solid #1e2123;
+  border-bottom: 30px solid #1e2123;
+  border-left: 30px solid #1e2123;
   background-color: #1e2123;
-  border-top: 20px solid #1e2123;
-  border-right: 20px solid #25292b;
-  border-bottom: 20px solid #25292b;
-  border-left: 20px solid #25292b;
+  border-top-color: #1e2123;
+  border-right-color: #25292b;
+  border-bottom-color: #25292b;
+  border-left-color: #25292b;
 }
 
 /* Footer band rules */

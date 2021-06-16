@@ -19,10 +19,10 @@
     position: absolute;
     top: 0;
     background-color: $theme-color-1;
-    border-top: 20px solid $theme-color-1;
-    border-right: 20px solid $theme-color-2;
-    border-bottom: 20px solid $theme-color-2;
-    border-left: 20px solid $theme-color-2;
+    border-top: 30px solid $theme-color-1;
+    border-right: 30px solid $theme-color-2;
+    border-bottom: 30px solid $theme-color-2;
+    border-left: 30px solid $theme-color-2;
 }
 
 @mixin scale-on-hover {

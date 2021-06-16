@@ -113,10 +113,10 @@ main {
         &::before {
             @include section-arrow;
             background-color: $theme-color-2;
-            border-top: 20px solid $theme-color-2;
-            border-right: 20px solid $theme-color-1;
-            border-bottom: 20px solid $theme-color-1;
-            border-left: 20px solid $theme-color-1;
+            border-top-color: $theme-color-2;
+            border-right-color: $theme-color-1;
+            border-bottom-color: $theme-color-1;
+            border-left-color: $theme-color-1;
         }
     }
 }
