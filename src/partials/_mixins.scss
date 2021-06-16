@@ -23,3 +23,12 @@
     border-bottom: 20px solid $theme-color-2;
     border-left: 20px solid $theme-color-2;
 }
+
+@mixin scale-on-hover {
+    transition: transform 0.2s;
+    
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 3px 15px rgb(0 0 0 / 40%);
+    }
+}
