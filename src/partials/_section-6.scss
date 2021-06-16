@@ -55,6 +55,14 @@ main {
                             width: 42px;
                             height: 42px;
                             margin-right: 10px;
+
+                            &:hover {
+                                background-color: saturate($theme-color-2, 5%);
+                                
+                                i {
+                                    color: darken(white, 20%);
+                                }
+                            }
                         }
                     }
                 }
