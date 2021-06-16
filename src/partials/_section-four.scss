@@ -8,6 +8,10 @@ main {
             justify-content: center;
 
             .feedback {
+                * {
+                    font-size: 15px;
+                }
+
                 color: $paragraph-color;
                 width: 45%;
                 display: flex;
