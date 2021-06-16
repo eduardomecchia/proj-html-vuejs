@@ -47,7 +47,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 60px;
+  padding: 32px 4%;
 }
 header nav ul {
   display: flex;
