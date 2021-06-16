@@ -29,8 +29,9 @@
     
     &:hover {
         transform: scale(1.03);
-        
+
         img {
+            transition: box-shadow 0.2s;
             box-shadow: 0 3px 15px rgb(0 0 0 / 40%);
         }
     }
