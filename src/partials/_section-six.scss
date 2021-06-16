@@ -3,15 +3,68 @@
 main {
     section:nth-child(6) {
         .wrapper {
+            width: 70%;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
 
-            button {
-                @include button;
-                border: 1px solid $theme-color-2;
+            .person {
+                img:first-child {
+                    transition: transform 0.2s;
+                    max-width: 100%;
+
+                    &:hover {
+                        transform: scale(1.03);
+                    }
+                }
+
+                .trainer-info {
+                    padding: 40px;
+
+                    .trainer-name, 
+                    .trainer-title {
+                        font-weight: bold,
+                    }
+
+                    .trainer-title {
+                        margin-top: 10px;
+                    }
+    
+                    .trainer-description {
+                        margin-top: 30px;
+                        line-height: 30px;
+                        color: $paragraph-color;
+                    }
+    
+                    .social-media {
+                        display: flex;
+                        align-items: center;
+                        color: white;
+                        font-size: 16px;
+                        margin-top: 30px;
+    
+                        a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-decoration: none;
+                            width: 42px;
+                            height: 42px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    margin: 0 50px;
+                }
             }
+        }
+
+        button {
+            @include button;
+            margin-top: 70px;
+            border: 1px solid $theme-color-2;
         }
     }
 }

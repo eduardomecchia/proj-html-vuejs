@@ -129,27 +129,39 @@
 
                 <!-- Section number 6 -->
                 <section class="bg-brand-2">
+                    <h2>MEET OUR TRAINERS</h2>
+
+                    <img class="divider" src="./dist/img/divider-xx-red.png" alt="Two red X symbols">
+
                     <div class="wrapper">
-                        <h2>MEET OUR TRAINERS</h2>
-
-                        <img class="divider" src="./dist/img/divider-xx-red.png" alt="Two red X symbols">
-
-                        <div class="staff bg-brand-1" v-for="personalTrainer in personalTrainers">
+                        <div class="person bg-brand-1" v-for="personalTrainer in personalTrainers">
                             <img :src="'./dist/img/' + personalTrainer.photo" alt="">
 
-                            <div>{{ personalTrainer.name }}</div>
-
-                            <div>{{ personalTrainer.title }}</div>
-
-                            <div>{{ personalTrainer.description }}</div>
-
-                            <div class="social-media">
-
+                            <div class="trainer-info">
+                                <div class="trainer-name">{{ personalTrainer.name }}</div>
+    
+                                <div class="trainer-title">{{ personalTrainer.title }}</div>
+    
+                                <div class="trainer-description">{{ personalTrainer.description }}</div>
+    
+                                <div class="social-media">
+                                    <a class="bg-brand-2" :href="personalTrainer.facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+    
+                                    <a class="bg-brand-2" :href="personalTrainer.twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+    
+                                    <a class="bg-brand-2" :href="personalTrainer.instagram">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-
-                        <button>View all trainers</button>
                     </div>
+
+                    <button>View all trainers</button>
                 </section>
 
                 <!-- Section number 7 -->
