@@ -20,6 +20,10 @@
   background-color: #ee6059;
 }
 
+.wrapper {
+  width: 70%;
+}
+
 /* Header rules */
 header {
   background-image: url("../img/home-banner.jpg");
@@ -136,7 +140,7 @@ main section:nth-child(2) .wrapper .image-wrapper img {
   transition: transform 0.2s;
 }
 main section:nth-child(2) .wrapper .image-wrapper img:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 main section:nth-child(2) .wrapper .form-container {
   margin-left: 40px;
@@ -205,7 +209,7 @@ main section:nth-child(3) {
 }
 main section:nth-child(3) .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 main section:nth-child(3) .wrapper .feature {
   width: 20%;
@@ -252,7 +256,7 @@ main section:nth-child(4) .wrapper {
 }
 main section:nth-child(4) .wrapper .feedback {
   color: #a3a2a2;
-  width: 35%;
+  width: 45%;
   display: flex;
   padding: 30px;
 }
@@ -317,7 +321,6 @@ main section:nth-child(5) .wrapper span {
 
 /* Section #6 rules */
 main section:nth-child(6) .wrapper {
-  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,7 +403,6 @@ main section:nth-child(7) {
   position: relative;
 }
 main section:nth-child(7) .wrapper {
-  width: 70%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -509,7 +511,6 @@ footer section:first-child {
   padding: 60px 0;
 }
 footer section:first-child .wrapper {
-  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -552,7 +553,6 @@ footer .footer-columns {
 footer .footer-columns .wrapper {
   display: flex;
   justify-content: space-between;
-  width: 70%;
 }
 footer .footer-columns .wrapper .column {
   display: flex;
@@ -609,7 +609,6 @@ footer .copyright {
   justify-content: center;
 }
 footer .copyright .wrapper {
-  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
