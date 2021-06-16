@@ -86,6 +86,7 @@ header .jumbotron h2 {
   margin-top: 30px;
 }
 header .jumbotron button {
+  font-family: "Montserrat", sans-serif;
   padding: 17px 40px;
   background-color: transparent;
   border: 1px solid #a3a2a2;
@@ -186,6 +187,7 @@ main section:nth-child(2) .wrapper .form-container .form-group input:focus-visib
   outline: 0;
 }
 main section:nth-child(2) .wrapper .form-container button {
+  font-family: "Montserrat", sans-serif;
   padding: 17px 40px;
   background-color: transparent;
   border: 1px solid #a3a2a2;
@@ -413,6 +415,7 @@ main section:nth-child(6) .wrapper .person:nth-of-type(2) {
   margin: 0 50px;
 }
 main section:nth-child(6) button {
+  font-family: "Montserrat", sans-serif;
   padding: 17px 40px;
   background-color: transparent;
   border: 1px solid #a3a2a2;
@@ -517,6 +520,7 @@ main section:nth-child(7) .wrapper .card .card-info a:hover h3 {
   color: #ee6059;
 }
 main section:nth-child(7) button {
+  font-family: "Montserrat", sans-serif;
   padding: 17px 40px;
   background-color: transparent;
   border: 1px solid #a3a2a2;
@@ -574,6 +578,7 @@ footer section:first-child .wrapper div:last-child {
   width: 25%;
 }
 footer section:first-child .wrapper div:last-child button {
+  font-family: "Montserrat", sans-serif;
   padding: 17px 40px;
   background-color: transparent;
   border: 1px solid #a3a2a2;
