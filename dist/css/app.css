@@ -208,7 +208,7 @@ main section:nth-child(2) .wrapper .form-container button:hover {
 }
 main section:nth-child(2) .wrapper .form-container button:hover {
   border: 0;
-  background-color: #ec4a42;
+  background-color: #c6534e;
 }
 main section:nth-child(2) .wrapper::before {
   content: "";
