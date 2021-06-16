@@ -79,6 +79,31 @@ var app = new Vue({
       // Placeholder for profile link
       instagram: "https://www.instagram.com/" // Placeholder for profile link
 
+    }],
+    performanceCards: [{
+      image: "blog1.jpg",
+      title: "Train with free weights or your body weight?",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]"
+    }, {
+      image: "blog6.jpg",
+      title: "Nutritional advice that will keep you training",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]"
+    }, {
+      image: "trainer4.jpg",
+      title: "Simple principles for your next workout",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]"
+    }, {
+      image: "blog4.jpg",
+      title: "To be number one, train like you’re number two",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]"
+    }, {
+      image: "trainer3.jpg",
+      title: "Top 5 mistakes every gym member makes",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]"
+    }, {
+      image: "trainer1.jpg",
+      title: "The myths of shedding body fat explored",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]"
     }]
   },
   methods: {}
