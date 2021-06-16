@@ -39,6 +39,12 @@ main {
                 .image-wrapper {
                     position: relative;
 
+                    &:hover {
+                        .overlay {
+                            display: flex;
+                        }
+                    }
+
                     img {
                         max-width: 100%;
                     }
@@ -47,15 +53,19 @@ main {
                         position: absolute;
                         top: 0;
                         left: 0;
-                        display: flex;
+                        display: none;
                         justify-content: center;
                         align-items: center;
                         width: 100%;
                         height: 100%;
-                        background-color: rgba($theme-color-3, 0.8);
+                        background-color: rgba($theme-color-3, 0.9);
     
-                        i:first-of-type {
-                            margin-right: 20px;
+                        i {
+                            font-size: 24px;
+
+                            &:first-of-type {
+                                margin-right: 20px;
+                            }
                         }
                     }
                 }
