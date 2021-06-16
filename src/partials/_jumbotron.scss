@@ -13,14 +13,15 @@ header {
             font-size: 100px;
         }
 
-        span {
+        h2 {
+            font-weight: normal;
+            letter-spacing: 1px;
             margin-top: 30px;
-            color: $paragraph-color;
         }
 
         button {
             @include button;
-            margin-top: 30px;
+            margin-top: 40px;
         }
     }
 }
