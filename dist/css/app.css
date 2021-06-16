@@ -260,6 +260,7 @@ main section:nth-child(3) .wrapper .feature .icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s;
 }
 main section:nth-child(3) .wrapper .feature .icon i {
   color: #ee6059;
@@ -276,6 +277,9 @@ main section:nth-child(3) .wrapper .feature .divider {
 main section:nth-child(3) .wrapper .feature p {
   font-size: 15px;
   line-height: 30px;
+}
+main section:nth-child(3) .wrapper .feature:hover .icon {
+  transform: scale(0.9);
 }
 main section:nth-child(3) .wrapper .feature:hover h4 {
   color: #ee6059;

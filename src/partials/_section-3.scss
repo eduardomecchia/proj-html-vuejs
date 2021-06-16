@@ -31,6 +31,7 @@ main {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    transition: transform 0.3s;
     
                     i {
                         color: $theme-color-3;
@@ -55,6 +56,10 @@ main {
 
                 /* color-on-hover mixin cannot be used here because the hover needs to trigger on the whole card */
                 &:hover {
+                    .icon {
+                        transform: scale(0.9);
+                    }
+
                     h4 {
                         color: $theme-color-3;
                     }
