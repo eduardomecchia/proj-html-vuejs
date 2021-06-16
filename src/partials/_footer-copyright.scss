@@ -31,7 +31,7 @@ footer {
                     font-size: 42px;
 
                     &:hover {
-                        background-color: darken($theme-color-3, 5%);
+                        background-color: desaturate(darken($theme-color-3, 10%), 30%);
                     }
                 }
             }
