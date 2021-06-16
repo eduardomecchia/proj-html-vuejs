@@ -636,8 +636,8 @@ footer .footer-columns .wrapper .column h4 {
 }
 footer .footer-columns .wrapper .column a {
   color: white;
-  transition: 0.2s;
   text-decoration: none;
+  transition: color 0.3s;
 }
 footer .footer-columns .wrapper .column a:hover {
   color: #ee6059;
