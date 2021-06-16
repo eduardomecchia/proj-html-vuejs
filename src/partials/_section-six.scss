@@ -8,12 +8,12 @@ main {
             align-items: center;
 
             .person {
-                img:first-child {
-                    transition: transform 0.2s;
-                    max-width: 100%;
+                .image-wrapper {
+                    cursor: pointer;
+                    @include scale-on-hover;
 
-                    &:hover {
-                        transform: scale(1.03);
+                    img {
+                        max-width: 100%;
                     }
                 }
 

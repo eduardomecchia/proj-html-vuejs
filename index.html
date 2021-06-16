@@ -135,7 +135,9 @@
 
                     <div class="wrapper">
                         <div class="person bg-brand-1" v-for="personalTrainer in personalTrainers">
-                            <img :src="'./dist/img/' + personalTrainer.photo" alt="">
+                            <div class="image-wrapper">
+                                <img :src="'./dist/img/' + personalTrainer.photo" alt="">
+                            </div>
 
                             <div class="trainer-info">
                                 <div class="trainer-name">{{ personalTrainer.name }}</div>

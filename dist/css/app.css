@@ -357,12 +357,18 @@ main section:nth-child(6) .wrapper {
   justify-content: center;
   align-items: center;
 }
-main section:nth-child(6) .wrapper .person img:first-child {
+main section:nth-child(6) .wrapper .person .image-wrapper {
+  cursor: pointer;
   transition: transform 0.2s;
-  max-width: 100%;
 }
-main section:nth-child(6) .wrapper .person img:first-child:hover {
+main section:nth-child(6) .wrapper .person .image-wrapper:hover {
   transform: scale(1.03);
+}
+main section:nth-child(6) .wrapper .person .image-wrapper:hover img {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+}
+main section:nth-child(6) .wrapper .person .image-wrapper img {
+  max-width: 100%;
 }
 main section:nth-child(6) .wrapper .person .trainer-info {
   padding: 40px;
