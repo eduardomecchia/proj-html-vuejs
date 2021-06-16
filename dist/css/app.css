@@ -654,7 +654,7 @@ footer .footer-columns .wrapper .column a:hover {
 }
 footer .footer-columns .wrapper .column.posts hr {
   border: 1px solid #3d3c3c;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 footer .footer-columns .wrapper .column.posts a::before {
   content: "˃";
