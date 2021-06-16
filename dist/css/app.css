@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
 @charset "UTF-8";
 /* Global rules */
 * {
@@ -232,9 +232,6 @@ main section:nth-child(3) .wrapper .feature {
   text-align: center;
   cursor: pointer;
 }
-main section:nth-child(3) .wrapper .feature:hover h4 {
-  color: #ee6059;
-}
 main section:nth-child(3) .wrapper .feature .icon {
   width: 82px;
   height: 82px;
@@ -252,12 +249,16 @@ main section:nth-child(3) .wrapper .feature .icon i {
 main section:nth-child(3) .wrapper .feature h4 {
   transition: color 0.2s;
   margin-top: 20px;
+  font-size: 16px;
 }
 main section:nth-child(3) .wrapper .feature .divider {
   margin: 20px 0;
 }
 main section:nth-child(3) .wrapper .feature p {
   line-height: 30px;
+}
+main section:nth-child(3) .wrapper .feature:hover h4 {
+  color: #ee6059;
 }
 
 /* Section #4 rules */
