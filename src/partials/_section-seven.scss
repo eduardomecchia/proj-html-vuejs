@@ -11,6 +11,8 @@
 
 main {
     section:nth-child(7) {
+        position: relative;
+
         .wrapper {
             width: 70%;
             display: flex;
@@ -103,6 +105,17 @@ main {
         button {
             @include button;
             margin-top: 70px;
+        }
+
+        &::before {
+            content: "";
+            background-color: $theme-color-2;
+            position: absolute;
+            top: 0;
+            border-top: 20px solid $theme-color-2;
+            border-right: 20px solid $theme-color-1;
+            border-bottom: 20px solid $theme-color-1;
+            border-left: 20px solid $theme-color-1;
         }
     }
 }

@@ -395,6 +395,9 @@ main section:nth-child(6) button:hover {
     background-color: rgba(238, 96, 89, 0.9);
   }
 }
+main section:nth-child(7) {
+  position: relative;
+}
 main section:nth-child(7) .wrapper {
   width: 70%;
   display: flex;
@@ -477,6 +480,16 @@ main section:nth-child(7) button {
 main section:nth-child(7) button:hover {
   color: white;
   border: 1px solid white;
+}
+main section:nth-child(7)::before {
+  content: "";
+  background-color: #1e2123;
+  position: absolute;
+  top: 0;
+  border-top: 20px solid #1e2123;
+  border-right: 20px solid #25292b;
+  border-bottom: 20px solid #25292b;
+  border-left: 20px solid #25292b;
 }
 
 /* Footer band rules */
