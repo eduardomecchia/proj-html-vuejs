@@ -11,6 +11,15 @@
   font-size: 18px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
 .bg-brand-1 {
   background-color: #25292b;
 }
@@ -341,6 +350,7 @@ main section:nth-child(6) .wrapper .person .trainer-info {
 main section:nth-child(6) .wrapper .person .trainer-info .trainer-name,
 main section:nth-child(6) .wrapper .person .trainer-info .trainer-title {
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
 main section:nth-child(6) .wrapper .person .trainer-info .trainer-title {
   margin-top: 10px;
