@@ -321,6 +321,7 @@ main section:nth-child(5) {
 }
 main section:nth-child(5) .wrapper {
   width: 34%;
+  letter-spacing: 2px;
 }
 main section:nth-child(5) .wrapper p {
   color: white;
@@ -330,6 +331,7 @@ main section:nth-child(5) .wrapper p {
 main section:nth-child(5) .wrapper span {
   display: block;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 /* Section #6 rules */
