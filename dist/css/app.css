@@ -379,6 +379,22 @@ main section:nth-child(6) button:hover {
 }
 
 /* Section #7 rules */
+@-webkit-keyframes slide {
+  from {
+    background-color: rgba(238, 96, 89, 0.1);
+  }
+  to {
+    background-color: rgba(238, 96, 89, 0.9);
+  }
+}
+@keyframes slide {
+  from {
+    background-color: rgba(238, 96, 89, 0.1);
+  }
+  to {
+    background-color: rgba(238, 96, 89, 0.9);
+  }
+}
 main section:nth-child(7) .wrapper {
   width: 70%;
   display: flex;
@@ -410,6 +426,10 @@ main section:nth-child(7) .wrapper .card .image-wrapper {
   position: relative;
 }
 main section:nth-child(7) .wrapper .card .image-wrapper:hover .overlay {
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
   display: flex;
 }
 main section:nth-child(7) .wrapper .card .image-wrapper img {
@@ -428,6 +448,7 @@ main section:nth-child(7) .wrapper .card .image-wrapper .overlay {
 }
 main section:nth-child(7) .wrapper .card .image-wrapper .overlay i {
   font-size: 24px;
+  cursor: pointer;
 }
 main section:nth-child(7) .wrapper .card .image-wrapper .overlay i:first-of-type {
   margin-right: 20px;
