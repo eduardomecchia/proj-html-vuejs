@@ -12,6 +12,11 @@ footer {
             align-items: center;
             color: $paragraph-color;
 
+            .copyright-info {
+                font-size: 12px;
+                color: $paragraph-color;
+            }
+
             .social-media {
                 display: flex;
 
