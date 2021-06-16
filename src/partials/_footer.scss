@@ -73,11 +73,7 @@ footer {
             
             .column.ad {
                 a {
-                    transition: transform 0.2s;
-
-                    &:hover {
-                        transform: scale(1.03);
-                    }
+                    @include scale-on-hover;
                 }
             }
         }

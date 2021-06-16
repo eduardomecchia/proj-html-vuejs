@@ -640,6 +640,9 @@ footer .footer-columns .wrapper .column.ad a {
 footer .footer-columns .wrapper .column.ad a:hover {
   transform: scale(1.03);
 }
+footer .footer-columns .wrapper .column.ad a:hover img {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+}
 
 /* Footer copyright section rules */
 footer .copyright {
