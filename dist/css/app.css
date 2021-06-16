@@ -520,6 +520,9 @@ main section:nth-child(7) .wrapper .card .card-info a:hover h3 {
   transition: color 0.2s;
   color: #ee6059;
 }
+main section:nth-child(7) .wrapper .card .card-info p {
+  margin-top: 5px;
+}
 main section:nth-child(7) button {
   font-family: "Montserrat", sans-serif;
   padding: 17px 40px;
