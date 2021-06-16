@@ -15,10 +15,11 @@ main {
             }
 
             .image-wrapper {
+                @include scale-on-hover;
+                cursor: pointer;
+                
                 img {
                     max-width: 100%;
-                    cursor: pointer;
-                    @include scale-on-hover;
                 }
             }
             

@@ -146,14 +146,18 @@ main section:nth-child(2) .wrapper {
 main section:nth-child(2) .wrapper > * {
   width: 50%;
 }
+main section:nth-child(2) .wrapper .image-wrapper {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+main section:nth-child(2) .wrapper .image-wrapper:hover {
+  transform: scale(1.03);
+}
+main section:nth-child(2) .wrapper .image-wrapper:hover img {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+}
 main section:nth-child(2) .wrapper .image-wrapper img {
   max-width: 100%;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-main section:nth-child(2) .wrapper .image-wrapper img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 main section:nth-child(2) .wrapper .form-container {
   margin-left: 40px;
@@ -312,6 +316,9 @@ main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper {
 }
 main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper:hover {
   transform: scale(1.03);
+}
+main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper:hover img {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper img {
   max-width: 100%;

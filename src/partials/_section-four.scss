@@ -57,11 +57,7 @@ main {
                 margin-bottom: 40px;
                 padding: 0 10px;
                 cursor: pointer;
-                transition: transform 0.2s;
-
-                &:hover {
-                    transform: scale(1.03);
-                }
+                @include scale-on-hover;
 
                 img {
                     max-width: 100%;
