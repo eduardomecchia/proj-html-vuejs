@@ -166,6 +166,9 @@ main section:nth-child(2) .wrapper .image-wrapper img {
 main section:nth-child(2) .wrapper .form-container {
   margin-left: 40px;
 }
+main section:nth-child(2) .wrapper .form-container h3 {
+  letter-spacing: 1px;
+}
 main section:nth-child(2) .wrapper .form-container .form-group {
   display: flex;
   flex-direction: column;
