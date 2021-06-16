@@ -182,6 +182,8 @@ main section:nth-child(2) .wrapper .form-container .form-group input {
   border: 1px solid #3e4346;
   padding: 8px 15px;
   transition: border 0.2s;
+  color: #a3a2a2;
+  font-size: 13px;
 }
 main section:nth-child(2) .wrapper .form-container .form-group input:hover {
   border: 1px solid #3e434680;

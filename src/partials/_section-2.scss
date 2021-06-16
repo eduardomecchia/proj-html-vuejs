@@ -44,6 +44,8 @@ main {
                         border: 1px solid #3e4346;
                         padding: 8px 15px;
                         transition: border 0.2s;
+                        color: $paragraph-color;
+                        font-size: 13px;
     
                         &:hover {
                             border: 1px solid #3e434680;
