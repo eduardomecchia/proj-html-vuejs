@@ -303,6 +303,9 @@ main section:nth-child(3) .wrapper .feature:hover h4 {
 }
 
 /* Section #4 rules */
+main section:nth-child(4) {
+  padding: 130px 0;
+}
 main section:nth-child(4) .wrapper {
   display: flex;
   flex-wrap: wrap;
