@@ -18,11 +18,7 @@ main {
                 img {
                     max-width: 100%;
                     cursor: pointer;
-                    transition: transform 0.2s;
-
-                    &:hover {
-                        transform: scale(1.03);
-                    }
+                    @include scale-on-hover;
                 }
             }
             

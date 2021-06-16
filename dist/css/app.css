@@ -153,6 +153,7 @@ main section:nth-child(2) .wrapper .image-wrapper img {
 }
 main section:nth-child(2) .wrapper .image-wrapper img:hover {
   transform: scale(1.03);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 main section:nth-child(2) .wrapper .form-container {
   margin-left: 40px;
