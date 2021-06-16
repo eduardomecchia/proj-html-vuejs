@@ -81,7 +81,7 @@ header .jumbotron h1 {
   font-size: 100px;
 }
 header .jumbotron span {
-  margin-top: 20px;
+  margin-top: 30px;
   color: #a3a2a2;
 }
 header .jumbotron button {
@@ -92,7 +92,7 @@ header .jumbotron button {
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.2s;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 header .jumbotron button:hover {
   color: white;
