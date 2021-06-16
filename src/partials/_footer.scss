@@ -26,13 +26,13 @@ footer {
 
                 h4 {
                     font-weight: normal;
-                    color: rgba(white, 0.4);
+                    color: rgba($theme-color-4, 0.4);
                     text-transform: uppercase;
                     margin-bottom: 40px;
                 }
     
                 a {
-                    color: white;
+                    color: $theme-color-4;
                     text-decoration: none;
                     @include color-on-hover;
                 }

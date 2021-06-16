@@ -6,7 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: white;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
@@ -204,7 +204,7 @@ main section:nth-child(2) .wrapper .form-container button {
   text-transform: uppercase;
   transition: 0.2s;
   border: 0;
-  color: white;
+  color: #ffffff;
   background-color: #ee6059;
   width: 100%;
   margin-top: 40px;
@@ -357,7 +357,7 @@ main section:nth-child(5) .wrapper {
   letter-spacing: 2px;
 }
 main section:nth-child(5) .wrapper p {
-  color: white;
+  color: #ffffff;
   font-size: 30px;
   line-height: 50px;
 }
@@ -409,7 +409,7 @@ main section:nth-child(6) .wrapper .person .trainer-info .trainer-description {
 main section:nth-child(6) .wrapper .person .trainer-info .social-media {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   margin-top: 30px;
 }
@@ -645,7 +645,7 @@ footer .footer-columns .wrapper .column h4 {
   margin-bottom: 40px;
 }
 footer .footer-columns .wrapper .column a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s;
 }
