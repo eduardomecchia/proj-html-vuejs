@@ -14,22 +14,22 @@ const app = new Vue({
         thirdSectionFeatures: [
             {
                 name: "Strength & Conditioning",
-                iconClass: "fa-unlink",
+                iconClasses: "fas fa-unlink",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us." 
             },
             {
                 name: "Fitness & Cardio",
-                iconClass: "fa-bicycle",
+                iconClasses: "fas fa-bicycle",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us." 
             },
             {
                 name: "Flexibility & Rest",
-                iconClass: "fa-cloud",
+                iconClasses: "fab fa-skyatlas",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us." 
             },
             {
                 name: "Health & Diet",
-                iconClass: "fa-heartbeat",
+                iconClasses: "fas fa-heartbeat",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us." 
             }
         ],
