@@ -1,0 +1,10 @@
+/* Keyframes */
+
+@keyframes slide {
+    from {
+        background-color: rgba($theme-color-3, 0.1);
+    }
+    to {
+        background-color: rgba($theme-color-3, 0.9);
+    }
+}

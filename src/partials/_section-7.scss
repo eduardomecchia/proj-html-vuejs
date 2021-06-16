@@ -1,14 +1,5 @@
 /* Section #7 rules */
 
-@keyframes slide {
-    from {
-        background-color: rgba($theme-color-3, 0.1);
-    }
-    to {
-        background-color: rgba($theme-color-3, 0.9);
-    }
-}
-
 main {
     section:nth-child(7) {
         position: relative;

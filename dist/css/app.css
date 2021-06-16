@@ -36,6 +36,23 @@ h6 {
   width: 70%;
 }
 
+/* Keyframes */
+@-webkit-keyframes slide {
+  from {
+    background-color: rgba(238, 96, 89, 0.1);
+  }
+  to {
+    background-color: rgba(238, 96, 89, 0.9);
+  }
+}
+@keyframes slide {
+  from {
+    background-color: rgba(238, 96, 89, 0.1);
+  }
+  to {
+    background-color: rgba(238, 96, 89, 0.9);
+  }
+}
 /* Header rules */
 header {
   background-image: url("../img/home-banner.jpg");
@@ -453,22 +470,6 @@ main section:nth-child(6) button:hover {
 }
 
 /* Section #7 rules */
-@-webkit-keyframes slide {
-  from {
-    background-color: rgba(238, 96, 89, 0.1);
-  }
-  to {
-    background-color: rgba(238, 96, 89, 0.9);
-  }
-}
-@keyframes slide {
-  from {
-    background-color: rgba(238, 96, 89, 0.1);
-  }
-  to {
-    background-color: rgba(238, 96, 89, 0.9);
-  }
-}
 main section:nth-child(7) {
   position: relative;
 }
