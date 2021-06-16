@@ -564,8 +564,8 @@ main section:nth-child(7)::before {
   border-left-color: #25292b;
 }
 
-/* Footer band rules */
-footer section:first-child {
+/* Section number 8 rules */
+main section:nth-child(8) {
   display: flex;
   justify-content: center;
   background-image: url("../img/home-parallax.jpg");
@@ -574,24 +574,25 @@ footer section:first-child {
   background-size: cover;
   padding: 60px 0;
 }
-footer section:first-child .wrapper {
+main section:nth-child(8) .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer section:first-child .wrapper div:first-child {
+main section:nth-child(8) .wrapper div:first-child {
   width: 75%;
 }
-footer section:first-child .wrapper div:first-child h2 {
+main section:nth-child(8) .wrapper div:first-child h2 {
   font-size: 36px;
 }
-footer section:first-child .wrapper div:first-child p {
+main section:nth-child(8) .wrapper div:first-child span {
+  display: block;
   margin-top: 10px;
 }
-footer section:first-child .wrapper div:last-child {
+main section:nth-child(8) .wrapper div:last-child {
   width: 25%;
 }
-footer section:first-child .wrapper div:last-child button {
+main section:nth-child(8) .wrapper div:last-child button {
   font-family: "Montserrat", sans-serif;
   padding: 17px 40px;
   background-color: transparent;
@@ -601,7 +602,7 @@ footer section:first-child .wrapper div:last-child button {
   text-transform: uppercase;
   transition: 0.2s;
 }
-footer section:first-child .wrapper div:last-child button:hover {
+main section:nth-child(8) .wrapper div:last-child button:hover {
   color: white;
   border: 1px solid white;
 }

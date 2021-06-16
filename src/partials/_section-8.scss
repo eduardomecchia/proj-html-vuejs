@@ -1,7 +1,7 @@
-/* Footer band rules */
+/* Section number 8 rules */
 
-footer {
-    section:first-child {
+main {
+    section:nth-child(8) {
         display: flex;
         justify-content: center;
         background-image: url("../img/home-parallax.jpg");
@@ -22,7 +22,8 @@ footer {
                     font-size: 36px;
                 }
     
-                p {
+                span {
+                    display: block;
                     margin-top: 10px;
                 }
             }
