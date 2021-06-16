@@ -601,3 +601,33 @@ footer .footer-columns .wrapper .column.ad a {
 footer .footer-columns .wrapper .column.ad a:hover {
   transform: scale(1.03);
 }
+
+/* Footer copyright section rules */
+footer .copyright {
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+}
+footer .copyright .wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #a3a2a2;
+}
+footer .copyright .wrapper .social-media {
+  display: flex;
+}
+footer .copyright .wrapper .social-media .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 42px;
+}
+footer .copyright .wrapper .social-media .icon:hover {
+  background-color: #ec4a42;
+}
