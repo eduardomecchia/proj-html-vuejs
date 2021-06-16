@@ -359,6 +359,9 @@ main section:nth-child(6) .wrapper {
   justify-content: center;
   align-items: center;
 }
+main section:nth-child(6) .wrapper .person * {
+  font-size: 15px;
+}
 main section:nth-child(6) .wrapper .person .image-wrapper {
   cursor: pointer;
   transition: transform 0.35s;

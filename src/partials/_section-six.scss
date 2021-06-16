@@ -8,6 +8,10 @@ main {
             align-items: center;
 
             .person {
+                * {
+                    font-size: 15px;
+                }
+
                 .image-wrapper {
                     cursor: pointer;
                     @include scale-on-hover;
