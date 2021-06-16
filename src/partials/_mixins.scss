@@ -37,3 +37,11 @@
         }
     }
 }
+
+@mixin color-on-hover {
+    transition: color 0.3s;
+
+    &:hover {
+        color: $theme-color-3;
+    }
+}
