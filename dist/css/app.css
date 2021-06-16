@@ -267,6 +267,7 @@ main section:nth-child(3) .wrapper .feature .divider {
   margin: 20px 0;
 }
 main section:nth-child(3) .wrapper .feature p {
+  font-size: 15px;
   line-height: 30px;
 }
 main section:nth-child(3) .wrapper .feature:hover h4 {
