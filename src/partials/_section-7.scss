@@ -89,12 +89,10 @@ main {
 
                     a {
                         text-decoration: none;
+                        @include color-on-hover;
 
-                        &:hover {
-                            h3 {
-                                transition: color 0.2s;
-                                color: $theme-color-3;
-                            }
+                        h3 {
+                            color: inherit;
                         }
                     }
 

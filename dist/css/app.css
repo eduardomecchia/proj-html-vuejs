@@ -241,6 +241,7 @@ main section:nth-child(3) .wrapper .feature {
   align-items: center;
   text-align: center;
   cursor: pointer;
+  /* color-on-hover mixin cannot be used here because the hover needs to trigger on the whole card */
 }
 main section:nth-child(3) .wrapper .feature .icon {
   width: 82px;
@@ -257,7 +258,7 @@ main section:nth-child(3) .wrapper .feature .icon i {
   font-size: inherit;
 }
 main section:nth-child(3) .wrapper .feature h4 {
-  transition: color 0.2s;
+  transition: color 0.3s;
   margin-top: 20px;
   font-size: 16px;
 }
@@ -521,10 +522,13 @@ main section:nth-child(7) .wrapper .card .card-info {
 }
 main section:nth-child(7) .wrapper .card .card-info a {
   text-decoration: none;
+  transition: color 0.3s;
 }
-main section:nth-child(7) .wrapper .card .card-info a:hover h3 {
-  transition: color 0.2s;
+main section:nth-child(7) .wrapper .card .card-info a:hover {
   color: #ee6059;
+}
+main section:nth-child(7) .wrapper .card .card-info a h3 {
+  color: inherit;
 }
 main section:nth-child(7) .wrapper .card .card-info p {
   margin-top: 5px;
