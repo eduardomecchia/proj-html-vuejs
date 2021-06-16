@@ -379,3 +379,17 @@ main section:nth-child(6) button:hover {
 }
 
 /* Section #7 rules */
+main section:nth-child(7) button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #a3a2a2;
+  color: #a3a2a2;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+main section:nth-child(7) button:hover {
+  color: white;
+  border: 1px solid white;
+}

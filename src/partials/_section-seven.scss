@@ -2,6 +2,10 @@
 
 main {
     section:nth-child(7) {
-        
+
+        button {
+            @include button;
+            margin-top: 20px;
+        }
     }
 }
