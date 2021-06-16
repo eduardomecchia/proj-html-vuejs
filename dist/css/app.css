@@ -478,3 +478,45 @@ main section:nth-child(7) button:hover {
   color: white;
   border: 1px solid white;
 }
+
+/* Footer band rules */
+footer section:first-child {
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/home-parallax.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+}
+footer section:first-child .wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer section:first-child .wrapper div:first-child {
+  width: 75%;
+}
+footer section:first-child .wrapper div:first-child h2 {
+  font-size: 36px;
+}
+footer section:first-child .wrapper div:first-child p {
+  margin-top: 10px;
+}
+footer section:first-child .wrapper div:last-child {
+  width: 25%;
+}
+footer section:first-child .wrapper div:last-child button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #a3a2a2;
+  color: #a3a2a2;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+footer section:first-child .wrapper div:last-child button:hover {
+  color: white;
+  border: 1px solid white;
+}

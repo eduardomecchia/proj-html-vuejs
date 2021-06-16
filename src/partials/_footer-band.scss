@@ -1,0 +1,40 @@
+/* Footer band rules */
+
+footer {
+    section:first-child {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/home-parallax.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 60px 0;
+
+        .wrapper {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            div:first-child {
+                width: 75%;
+    
+                h2 {
+                    font-size: 36px;
+                }
+    
+                p {
+                    margin-top: 10px;
+                }
+            }
+    
+            div:last-child {
+                width: 25%;
+    
+                button {
+                    @include button;
+                }
+            }
+        }
+    }
+}
