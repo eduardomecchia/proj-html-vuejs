@@ -16,5 +16,15 @@
                 }
             }
         }
+
+        section:nth-child(7) {
+            .wrapper {
+                .card {
+                    width: 100% !important;
+                    margin: 0 !important;
+                    margin-bottom: 20px !important;
+                }
+            }
+        }
     }
 }
