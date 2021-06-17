@@ -333,7 +333,7 @@ main section:nth-child(4) .wrapper .feedback .feedback-info .feedback-author {
   font-weight: bold;
 }
 main section:nth-child(4) .wrapper:nth-of-type(2) {
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 70%;
 }
 main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper {
@@ -342,7 +342,6 @@ main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper {
   align-items: center;
   width: calc(90% / 3);
   margin-bottom: 40px;
-  padding: 0 10px;
   cursor: pointer;
   transition: transform 0.35s;
 }
