@@ -170,11 +170,13 @@ main section:nth-child(2) .wrapper .image-wrapper {
   transition: transform 0.35s;
   cursor: pointer;
 }
+main section:nth-child(2) .wrapper .image-wrapper img {
+  transition: box-shadow 0.35s;
+}
 main section:nth-child(2) .wrapper .image-wrapper:hover {
   transform: scale(1.03);
 }
 main section:nth-child(2) .wrapper .image-wrapper:hover img {
-  transition: box-shadow 0.35s;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 main section:nth-child(2) .wrapper .image-wrapper img {
@@ -353,11 +355,13 @@ main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper {
   cursor: pointer;
   transition: transform 0.35s;
 }
+main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper img {
+  transition: box-shadow 0.35s;
+}
 main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper:hover {
   transform: scale(1.03);
 }
 main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper:hover img {
-  transition: box-shadow 0.35s;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 main section:nth-child(4) .wrapper:nth-of-type(2) .image-wrapper img {
@@ -404,11 +408,13 @@ main section:nth-child(6) .wrapper .person .image-wrapper {
   cursor: pointer;
   transition: transform 0.35s;
 }
+main section:nth-child(6) .wrapper .person .image-wrapper img {
+  transition: box-shadow 0.35s;
+}
 main section:nth-child(6) .wrapper .person .image-wrapper:hover {
   transform: scale(1.03);
 }
 main section:nth-child(6) .wrapper .person .image-wrapper:hover img {
-  transition: box-shadow 0.35s;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 main section:nth-child(6) .wrapper .person .image-wrapper img {
@@ -676,11 +682,13 @@ footer .footer-columns .wrapper .column.times .time {
 footer .footer-columns .wrapper .column.ad a {
   transition: transform 0.35s;
 }
+footer .footer-columns .wrapper .column.ad a img {
+  transition: box-shadow 0.35s;
+}
 footer .footer-columns .wrapper .column.ad a:hover {
   transform: scale(1.03);
 }
 footer .footer-columns .wrapper .column.ad a:hover img {
-  transition: box-shadow 0.35s;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 
