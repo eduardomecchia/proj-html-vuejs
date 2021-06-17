@@ -36,7 +36,6 @@ h6 {
   width: 70%;
 }
 
-/* Keyframes */
 /* Header rules */
 header {
   background-image: url("../img/home-banner.jpg");
@@ -722,6 +721,15 @@ footer .copyright .wrapper .social-media .icon:hover {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
+  main section:nth-child(4) .feedback {
+    flex-direction: column;
+  }
+  main section:nth-child(4) .feedback .image-wrapper {
+    flex-shrink: 1;
+  }
+  main section:nth-child(4) .feedback .feedback-info {
+    margin: 0 !important;
+  }
   main section:nth-child(6) .wrapper {
     flex-wrap: wrap;
   }

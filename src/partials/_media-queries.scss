@@ -2,6 +2,20 @@
 
 @media screen and (max-width: 768px) {
     main {
+        section:nth-child(4) {
+            .feedback {
+                flex-direction: column;
+
+                .image-wrapper {
+                    flex-shrink: 1;
+                }
+
+                .feedback-info {
+                    margin: 0 !important;
+                }
+            }
+        }
+
         section:nth-child(6) {
             .wrapper {
                 flex-wrap: wrap;
