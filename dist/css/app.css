@@ -53,6 +53,7 @@ h6 {
     background-color: rgba(238, 96, 89, 0.9);
   }
 }
+/* Media queries */
 /* Header rules */
 header {
   background-image: url("../img/home-banner.jpg");
