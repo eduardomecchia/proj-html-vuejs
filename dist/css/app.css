@@ -296,7 +296,7 @@ main section:nth-child(4) {
 main section:nth-child(4) .wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 main section:nth-child(4) .wrapper .feedback {
   color: #a3a2a2;
