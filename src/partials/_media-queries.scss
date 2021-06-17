@@ -27,4 +27,17 @@
             }
         }
     }
+
+    footer {
+        .footer-columns {
+            .wrapper {
+                flex-wrap: wrap;
+
+                .column {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
 }
