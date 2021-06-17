@@ -37,22 +37,6 @@ h6 {
 }
 
 /* Keyframes */
-@-webkit-keyframes slide {
-  from {
-    background-color: rgba(238, 96, 89, 0.1);
-  }
-  to {
-    background-color: rgba(238, 96, 89, 0.9);
-  }
-}
-@keyframes slide {
-  from {
-    background-color: rgba(238, 96, 89, 0.1);
-  }
-  to {
-    background-color: rgba(238, 96, 89, 0.9);
-  }
-}
 /* Media queries */
 /* Header rules */
 header {
@@ -513,13 +497,6 @@ main section:nth-child(7) .wrapper .card:last-of-type {
 main section:nth-child(7) .wrapper .card .image-wrapper {
   position: relative;
 }
-main section:nth-child(7) .wrapper .card .image-wrapper:hover .overlay {
-  -webkit-animation-name: slide;
-          animation-name: slide;
-  -webkit-animation-duration: 0.2s;
-          animation-duration: 0.2s;
-  display: flex;
-}
 main section:nth-child(7) .wrapper .card .image-wrapper img {
   max-width: 100%;
 }
@@ -527,19 +504,29 @@ main section:nth-child(7) .wrapper .card .image-wrapper .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 0%;
   height: 100%;
   background-color: rgba(238, 96, 89, 0.9);
+  transition: width 0.3s;
 }
 main section:nth-child(7) .wrapper .card .image-wrapper .overlay i {
   font-size: 24px;
   cursor: pointer;
+  display: block;
+  opacity: 0;
 }
 main section:nth-child(7) .wrapper .card .image-wrapper .overlay i:first-of-type {
   margin-right: 20px;
+}
+main section:nth-child(7) .wrapper .card .image-wrapper:hover .overlay {
+  width: 100%;
+}
+main section:nth-child(7) .wrapper .card .image-wrapper:hover i {
+  transition: opacity 0.4s;
+  opacity: 1;
 }
 main section:nth-child(7) .wrapper .card .card-info {
   padding: 30px;

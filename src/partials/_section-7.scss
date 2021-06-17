@@ -40,36 +40,42 @@ main {
                 .image-wrapper {
                     position: relative;
 
-                    &:hover {
-                        .overlay {
-                            animation-name: slide;
-                            animation-duration: 0.2s;
-                            display: flex;
-                        }
-                    }
-
                     img {
                         max-width: 100%;
                     }
-
+                    
                     .overlay {
                         position: absolute;
                         top: 0;
                         left: 0;
-                        display: none;
+                        display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 100%;
+                        width: 0%;
                         height: 100%;
                         background-color: rgba($theme-color-3, 0.9);
-    
+                        transition: width 0.3s;
+                        
                         i {
                             font-size: 24px;
                             cursor: pointer;
-
+                            display: block;
+                            opacity: 0;
+                            
                             &:first-of-type {
                                 margin-right: 20px;
                             }
+                        }
+                    }
+
+                    &:hover {
+                        .overlay {
+                            width: 100%;
+                        }
+
+                        i {
+                            transition: opacity 0.4s;
+                            opacity: 1;
                         }
                     }
                 }
