@@ -18,6 +18,14 @@ main {
                 width: 45%;
                 display: flex;
                 padding: 30px;
+
+                .image-wrapper {
+                    flex-shrink: 0;
+
+                    img {
+                        width: 100%;
+                    }
+                }
                 
                 &:first-of-type,
                 &:nth-of-type(2) {
