@@ -494,10 +494,10 @@ main section:nth-child(7) .wrapper .card:nth-of-type(2), main section:nth-child(
   margin-right: 40px;
 }
 main section:nth-child(7) .wrapper .card:nth-of-type(4) {
-  margin-top: -165px;
+  margin-top: -14%;
 }
 main section:nth-child(7) .wrapper .card:last-of-type {
-  margin-top: -90px;
+  margin-top: -7%;
 }
 main section:nth-child(7) .wrapper .card .image-wrapper {
   position: relative;
