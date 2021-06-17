@@ -37,7 +37,6 @@ h6 {
 }
 
 /* Keyframes */
-/* Media queries */
 /* Header rules */
 header {
   background-image: url("../img/home-banner.jpg");
@@ -718,4 +717,18 @@ footer .copyright .wrapper .social-media .icon {
 }
 footer .copyright .wrapper .social-media .icon:hover {
   background-color: #c6534e;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  main section:nth-child(6) .wrapper {
+    flex-wrap: wrap;
+  }
+  main section:nth-child(6) .wrapper .person {
+    margin: 20px 0;
+  }
+  main section:nth-child(6) .wrapper .person:nth-of-type(2) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
