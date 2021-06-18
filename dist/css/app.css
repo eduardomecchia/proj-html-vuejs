@@ -600,7 +600,7 @@ main section:nth-child(8) .wrapper div:first-child {
   width: 75%;
 }
 main section:nth-child(8) .wrapper div:first-child h2 {
-  font-size: 36px;
+  text-align: left;
 }
 main section:nth-child(8) .wrapper div:first-child span {
   display: block;
